@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import "fonts.scss";
+$green: #18ffb2;
+$red: #e87461;
+*{margin:0;padding:0;}
+body{
+    box-sizing: border-box;
+    padding: 0 !important; 
+    font-size: 15px; 
+    line-height: 1.7;
+    transition: .3s all; 
+    position: relative;
+    overflow-x: hidden;
+    // background: #111; 
+    font-family: 'Roboto';
+    font-weight: normal;
+    color: #333333; 
+    h1, h2, h3, h4, h5, h6, p, label, ul, li, .card, a { 
+        text-decoration: none !important;      
+        transition: .3s all; 
+        margin-bottom: 0;  
+        outline: none !important;  
+    }  
+	.container{
+		max-width: 1200px;
+		padding: 0 56px; 
+	}
+	input {
+		padding: 0 15px;  
+		outline: none;
+		color: #000000;
+	} 
+	input, button { 
+		transition: .3s all !important;
+	} 
+	p {
+		margin-bottom: 0;
+	}
+    a {
+        color: #333333;
+        &:hover {
+            color: $red; 
+            svg {
+                fill: $green;
+            }
+        }
+    }
+}
+.slick-slider {
+    margin-bottom: 0;
+}
+@import "layer.scss";
+
+.slide-banner {
+    img {
+        height: 435px;
+        object-fit: cover;
+    }
+}
+
+#box-home-prd {
+    padding: 60px 0;
+}
+.list-new {
+    .row {
+        margin: 0 -10px;
+        .col-md-6 {
+            padding: 0 10px;
+        }
+    }
+}
+.item-news {
+    .avarta {
+        overflow: hidden;
+        border-radius: 6px;
+        img {
+            transition: .6s all !important;
+            &:hover {
+                transform: scale(1.06) rotate(3deg);
+            }
+        }
+    }
+    .info {
+        padding-top: 15px;
+        a {
+            display: block;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        .desc {
+            font-size: 14px;
+            color: #777777;
+        }
+    }
+}
+.title {
+    margin-bottom: 25px;
+    h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        color: $red;
+        img {
+            margin-right: 10px;
+        }
+    }
+}
+
+.document {
+    margin-bottom: 60px;
+}
+.slide-doc {
+    margin: 0 -7px;
+    .item-slide {
+        padding: 0 7px;
+    }
+}
+
+.item-prd {
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid #ebebeb;
+    .avarta {
+        overflow: hidden;
+        img {
+            transition: .6s all !important;
+            &:hover {
+                transform: scale(1.06);
+            }
+        }
+    }
+    .info {
+        padding: 10px;
+        font-size: 13px;
+        h3 {
+            a {
+                display: block;
+                font-size: 15px;
+                font-weight: 600;
+            }
+        }
+        .author {
+            padding: 8px 0;
+        }
+    }
+    .reviews-content {
+        display: flex;
+        .star {
+            margin-right: 10px;
+            i {
+                color: #dbdbdb;
+                &.star-vote {
+                    color: #ffc107;
+                }
+            }
+        }
+    }
+}
+.item-price {
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    del {
+        font-weight: bold;
+        color: #777777;
+        padding-right: 20px;
+    }
+    ins {
+        border-bottom: 0;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: red;
+    }
+}
+
+.box-story {
+    background-size: cover !important;
+    padding: 100px 0;
+    margin-bottom: 60px;
+    color: #fff;
+    font-size: 13.5px;
+}
+.info-story {
+    max-width: 550px;
+    margin: 0 auto;
+    h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .desc {
+        padding: 20px 0;
+    }
+    .btn-more {
+        a {
+            display: inline-flex;
+            height: 40px;
+            background: #3b69f3;
+            align-items: center;
+            padding: 0 30px;
+            border-radius: 30px;
+            color: #fff;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 12px;
+            i {
+                position: relative;
+                margin-left: 15px;
+            }
+        }
+    }
+}

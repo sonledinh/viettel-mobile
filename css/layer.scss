@@ -1,0 +1,148 @@
+
+// footer
+footer {
+	font-size: 13px;
+	color: #fff;
+	a {
+		color: #fff;
+	}
+}
+.footer-top {
+	background: #7fb342;
+	padding: 40px 0;
+	ul {
+		list-style: none;
+		li {
+			padding: 4px 0;
+			i {
+				position: relative;
+				margin-right: 10px;
+			}
+		}
+	}
+}
+.item-footer {
+	.logo {
+		margin-bottom: 20px;
+	}
+}
+.title-footer {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.link-fter {
+	a {
+		position: relative;
+		padding-left: 15px;
+		&:after {
+			content: "\f101";
+			position: absolute;
+			font-family: fontawesome;
+			left: 0;
+			top: -4px;
+		}
+	}
+}
+.reserved {
+	background: $red;
+	padding: 10px 0;
+}
+// end footer
+
+
+// side-bar
+.side-sticky {
+	position: sticky;
+	top: 20px;
+}
+.title-bar {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	h2 {
+		font-size: 15px;
+		font-weight: bold;
+		color: $red;
+		display: flex;
+		align-items: center;
+		text-transform: uppercase;
+		img {
+			margin-right: 10px;
+		}
+	}
+}
+.cate-bar {
+	font-size: 13px;
+	text-transform: uppercase;
+	ul {
+		list-style: none;
+		li {
+			position: relative;
+			&:hover {
+				ul {
+					transition: .4s all;
+					right: -150px;
+					top: 0;
+					z-index: 2;
+					opacity: 1;
+					visibility: visible;
+					a {
+						padding: 5px 10px;
+					}
+				}
+				>a {
+					background: $red;
+					color: #fff;
+				}
+			}
+		}
+		a {
+			display: flex;
+		    position: relative;
+		    justify-content: space-between;
+		    align-items: center;
+		    padding: 5px;
+		    &:hover {
+		    	background: $red;
+		    	color: #fff;
+		    }
+		}
+		ul {
+			text-transform: capitalize;
+		    background: $red;
+		    position: absolute;
+		    right: -180px;
+		    width: 150px;
+		    top: 20px;
+		    transition: .3s all;
+		    opacity: 0;
+		    z-index: -1;
+		    visibility: hidden;
+		}
+	}
+}
+.box-filter {
+	position: relative;
+	margin-bottom: 30px;
+	font-size: 13px;
+	text-transform: uppercase;
+	ul {
+		list-style: none;
+		li {
+			margin-bottom: 4px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			input {
+				position: relative;
+				margin-right: 10px;
+				top: 2px;
+			}
+			label {
+				cursor: pointer;
+			}
+		}
+	}
+}
+// end side-bar
