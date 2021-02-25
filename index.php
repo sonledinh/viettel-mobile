@@ -128,6 +128,11 @@
 								</ul>
 							</div>
 						</div>
+						<div class="box-bar">
+							<div class="submit-bar">
+								<input type="submit" value="LỌC">
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-9">
