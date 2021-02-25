@@ -2,7 +2,7 @@
 		<div class="footer-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-xl-4 col-md-6 col-lg-6 col-sm-6">
 						<div class="item-footer">
 							<div class="logo"><a href=""><img src="images/logo.png" class="img-fluid" alt=""></a></div>
 							<div class="info-place">
@@ -15,7 +15,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-2">
+					<div class="col-xl-2 col-md-6 col-lg-6 col-sm-6">
 						<div class="item-footer">
 							<div class="title-footer">Giới thiệu</div>
 							<div class="link-fter">
@@ -29,7 +29,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-2">
+					<div class="col-xl-2 col-md-6 col-lg-6 col-sm-6">
 						<div class="item-footer">
 							<div class="title-footer">Hỗ trợ Khách hàng</div>
 							<div class="link-fter">
@@ -43,7 +43,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-xl-4 col-md-6 col-lg-6 col-sm-6">
 						<div class="item-footer">
 							<div class="title-footer">Fanpage</div>
 							<div class="fanpage">
@@ -75,7 +75,7 @@
 
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>  
-	<script type="text/javascript" src="js/paralax.js"></script>  
+	<script type="text/javascript" src="js/jquery.mmenu.all.js"></script>  
 	<script type="text/javascript" src="js/private.js"></script> 
 </body>
 </html> 
