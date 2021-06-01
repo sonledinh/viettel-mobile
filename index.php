@@ -1,536 +1,979 @@
 <?php include 'header.php';?>
 <main>
-	<section class="box-slide">
+	<section class="box-banner">
+		<div class="slide-banner">
+			<div class="item"><a href=""><img src="http://media.vietteltelecom.vn/upload/InternetInternetPackageBuyData/bd/78/8b/d9449bf6363575986d608dbcbb32a2e094bf56a5.jpg" class="img-fluid w-100" alt=""></a></div>
+			<div class="item"><a href=""><img src="http://media.vietteltelecom.vn/upload/InternetInternetPackageBuyData/bd/78/8b/d9449bf6363575986d608dbcbb32a2e094bf56a5.jpg" class="img-fluid w-100" alt=""></a></div>
+			<div class="item"><a href=""><img src="http://media.vietteltelecom.vn/upload/InternetInternetPackageBuyData/bd/78/8b/d9449bf6363575986d608dbcbb32a2e094bf56a5.jpg" class="img-fluid w-100" alt=""></a></div>
+		</div>
+		<div class="caption text-center">
+			<div class="container">
+				<h1>Viettel Telecom - Nhà cung cấp <br>dịch vụ di động, internet, truyền hình và giải pháp CNTT</h1>
+			</div>
+		</div>
+	</section>
+	<section class="new-home">
+		<div class="container">
+			<div class="top-tab">
+				<div class="row align-items-center">
+					<div class="col-md-8">
+						<ul class="list-inline align-items-center">
+							<li class="list-inline-item">
+								<div class="title text-uppercase"><h2>TIN TỨC SỰ KIỆN</h2></div>
+							</li>
+							<li class="list-inline-item"><a href="javascript:void(0)" data-tab="tab-1" class="clc-tab active">Tất cả</a></li>
+							<li class="list-inline-item"><a href="javascript:void(0)" data-tab="tab-2" class="clc-tab">Tin dịch vụ</a></li>
+							<li class="list-inline-item"><a href="javascript:void(0)" data-tab="tab-3" class="clc-tab">Tin khuyến mại</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4"> 
+						<div class="btn-more text-right"><a href="">Xem tất cả</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="content-news-home">
+				<div class="contne-tab active" id=tab-1>
+					<div class="list-news-home">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="new-bigs">
+									<div class="avarta"><a href=""><img src="http://media.vietteltelecom.vn/upload/ArticleNews/b6/fd/db/f9e5be0997c9786a107397f446ea9687fc6a3e8a.jpg" class="img-fluid w-100" alt=""></a></div>
+									<div class="info">
+										<h4><a href="" class="text-uppercase">Tin tức</a></h4>
+										<h3><a href="">Xu hướng học tiếng anh online trong thời đại công nghệ số</a></h3>
+										<div class="date">Thứ Sáu, 28/05/2021</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6"> 
+								<div class="list-new-small">
+									<div class="item-small">
+										<div class="avarta"><a href=""><img src="http://media.vietteltelecom.vn/upload/ArticleNews/cc/b6/6c/29246f8c0c2912b4c8b76044ad3525e9ae4f8416.jpg" class="img-fluid w-100" alt=""></a></div>
+										<div class="info">
+											<h4><a href="" class="text-uppercase">Tin tức</a></h4>
+											<h3><a href="">Viettel tặng 100% lưu lượng data cho người dân tại tâm dịch Bắc Ninh, Bắc Giang</a></h3>
+											<div class="date">Thứ Sáu, 28/05/2021</div>
+										</div>
+									</div>
+									<div class="item-small">
+										<div class="avarta"><a href=""><img src="http://media.vietteltelecom.vn/upload/ArticleNews/cc/b6/6c/29246f8c0c2912b4c8b76044ad3525e9ae4f8416.jpg" class="img-fluid w-100" alt=""></a></div>
+										<div class="info">
+											<h4><a href="" class="text-uppercase">Tin tức</a></h4>
+											<h3><a href="">Viettel tặng 100% lưu lượng data cho người dân tại tâm dịch Bắc Ninh, Bắc Giang</a></h3>
+											<div class="date">Thứ Sáu, 28/05/2021</div>
+										</div>
+									</div>
+									<div class="item-small">
+										<div class="avarta"><a href=""><img src="http://media.vietteltelecom.vn/upload/ArticleNews/cc/b6/6c/29246f8c0c2912b4c8b76044ad3525e9ae4f8416.jpg" class="img-fluid w-100" alt=""></a></div>
+										<div class="info">
+											<h4><a href="" class="text-uppercase">Tin tức</a></h4>
+											<h3><a href="">Viettel tặng 100% lưu lượng data cho người dân tại tâm dịch Bắc Ninh, Bắc Giang</a></h3>
+											<div class="date">Thứ Sáu, 28/05/2021</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contne-tab" id=tab-2>
+					<div class="list-news-home">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="new-bigs">
+									<div class="avarta"><a href=""><img src="http://media.vietteltelecom.vn/upload/ArticleNews/b6/fd/db/f9e5be0997c9786a107397f446ea9687fc6a3e8a.jpg" class="img-fluid w-100" alt=""></a></div>
+									<div class="info">
+										<h4><a href="" class="text-uppercase">Tin tức</a></h4>
+										<h3><a href="">Ngày 21/09/2020, Viettel khuyến mại 20% giá trị tất cả thẻ nạp cho thuê bao trước trên toàn quốc</a></h3>
+										<div class="date">Thứ Sáu, 28/05/2021</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6"> 
+								<div class="list-new-small">
+									<div class="item-small">
+										<div class="avarta"><a href=""><img src="http://media.vietteltelecom.vn/upload/ArticleNews/a8/30/0a/f8763ac4f1f6bfe9413d50a7fa9fe808f83186ba.jpg" class="img-fluid w-100" alt=""></a></div>
+										<div class="info">
+											<h4><a href="" class="text-uppercase">Tin tức</a></h4>
+											<h3><a href="">Viettel tặng 100% lưu lượng data cho người dân tại tâm dịch Bắc Ninh, Bắc Giang</a></h3>
+											<div class="date">Thứ Sáu, 28/05/2021</div>
+										</div>
+									</div>
+									<div class="item-small">
+										<div class="avarta"><a href=""><img src="http://media.vietteltelecom.vn/upload/ArticleNews/cc/b6/6c/29246f8c0c2912b4c8b76044ad3525e9ae4f8416.jpg" class="img-fluid w-100" alt=""></a></div>
+										<div class="info">
+											<h4><a href="" class="text-uppercase">Tin tức</a></h4>
+											<h3><a href="">Viettel tặng 100% lưu lượng data cho người dân tại tâm dịch Bắc Ninh, Bắc Giang</a></h3>
+											<div class="date">Thứ Sáu, 28/05/2021</div>
+										</div>
+									</div>
+									<div class="item-small">
+										<div class="avarta"><a href=""><img src="http://media.vietteltelecom.vn/upload/ArticleNews/cc/b6/6c/29246f8c0c2912b4c8b76044ad3525e9ae4f8416.jpg" class="img-fluid w-100" alt=""></a></div>
+										<div class="info">
+											<h4><a href="" class="text-uppercase">Tin tức</a></h4>
+											<h3><a href="">Viettel tặng 100% lưu lượng data cho người dân tại tâm dịch Bắc Ninh, Bắc Giang</a></h3>
+											<div class="date">Thứ Sáu, 28/05/2021</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contne-tab" id=tab-3>
+					<div class="list-news-home">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="new-bigs">
+									<div class="avarta"><a href=""><img src="http://media.vietteltelecom.vn/upload/ArticleNews/b6/fd/db/f9e5be0997c9786a107397f446ea9687fc6a3e8a.jpg" class="img-fluid w-100" alt=""></a></div>
+									<div class="info">
+										<h4><a href="" class="text-uppercase">Tin tức</a></h4>
+										<h3><a href="">Ngày 10/09/2020, Viettel khuyến mại 20% giá trị tất cả thẻ nạp cho thuê bao trước trên toàn quốc</a></h3>
+										<div class="date">Thứ Sáu, 28/05/2021</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6"> 
+								<div class="list-new-small">
+									<div class="item-small">
+										<div class="avarta"><a href=""><img src="http://media.vietteltelecom.vn/upload/ArticleNews/84/44/48/b9437eb59e11c278de3fab10c35bfb555e294720.jpg" class="img-fluid w-100" alt=""></a></div>
+										<div class="info">
+											<h4><a href="" class="text-uppercase">Tin tức</a></h4>
+											<h3><a href="">Viettel tặng 100% lưu lượng data cho người dân tại tâm dịch Bắc Ninh, Bắc Giang</a></h3>
+											<div class="date">Thứ Sáu, 28/05/2021</div>
+										</div>
+									</div>
+									<div class="item-small">
+										<div class="avarta"><a href=""><img src="http://media.vietteltelecom.vn/upload/ArticleNews/cc/b6/6c/29246f8c0c2912b4c8b76044ad3525e9ae4f8416.jpg" class="img-fluid w-100" alt=""></a></div>
+										<div class="info">
+											<h4><a href="" class="text-uppercase">Tin tức</a></h4>
+											<h3><a href="">Viettel tặng 100% lưu lượng data cho người dân tại tâm dịch Bắc Ninh, Bắc Giang</a></h3>
+											<div class="date">Thứ Sáu, 28/05/2021</div>
+										</div>
+									</div>
+									<div class="item-small">
+										<div class="avarta"><a href=""><img src="http://media.vietteltelecom.vn/upload/ArticleNews/cc/b6/6c/29246f8c0c2912b4c8b76044ad3525e9ae4f8416.jpg" class="img-fluid w-100" alt=""></a></div>
+										<div class="info">
+											<h4><a href="" class="text-uppercase">Tin tức</a></h4>
+											<h3><a href="">Viettel tặng 100% lưu lượng data cho người dân tại tâm dịch Bắc Ninh, Bắc Giang</a></h3>
+											<div class="date">Thứ Sáu, 28/05/2021</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="box-packages">
+		<div class="container">
+			<div class="title text-center text-uppercase"><h2>Gói cước hấp dẫn</h2></div>
+			<div class="tab-pack">
+				<ul class="list-inline">
+					<li class="list-inline-item"><a href="javascript:void(0)" data-tab="pack-1" class="active"><img src="https://cdn.zeplin.io/5f14fdf92d341a8d9303a33a/assets/852a00ae-00d8-4976-a7f3-ba02410ee09d.png" class="img-fluid" alt=""> Gói Hot</a></li>
+					<li class="list-inline-item"><a href="javascript:void(0)" data-tab="pack-2"><img src="https://cdn.zeplin.io/5f14fdf92d341a8d9303a33a/assets/5623a5f3-a6a1-4b4a-b3d3-41d95412df50.png" class="img-fluid" alt=""> Gói Trả Trước</a></li>
+					<li class="list-inline-item"><a href="javascript:void(0)" data-tab="pack-3"><img src="https://cdn.zeplin.io/5f14fdf92d341a8d9303a33a/assets/5ce0f3cd-761e-4b50-b7bb-443841bdbc65.png" class="img-fluid" alt=""> Gói trả Sau</a></li>
+					<li class="list-inline-item"><a href="javascript:void(0)" data-tab="pack-4"><img src="https://cdn.zeplin.io/5f14fdf92d341a8d9303a33a/assets/543dc658-0d13-4ce2-90a0-3e0a820169c5.png" class="img-fluid" alt=""> Gói Data</a></li>
+				</ul>
+			</div>
+			<div class="box-content-pack">
+				<div class="content-pack active" id="pack-1">
+					<div class="list-pack">
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="view-all text-center"><a href="">Xem tất cả <i class="fa fa-angle-double-right"></i></a></div>
+				</div>
+				<div class="content-pack" id="pack-2">
+					<div class="list-pack">
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="view-all text-center"><a href="">Xem tất cả <i class="fa fa-angle-double-right"></i></a></div>
+				</div>
+				<div class="content-pack" id="pack-3">
+					<div class="list-pack">
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="view-all text-center"><a href="">Xem tất cả <i class="fa fa-angle-double-right"></i></a></div>
+				</div>
+				<div class="content-pack" id="pack-4">
+					<div class="list-pack">
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-pack">
+								<div class="title-pack text-center">
+									<h3>C120</h3>
+									<p>120.000 đ/tháng</p>
+								</div>
+								<div class="desc">
+									<ul>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+									</ul>
+								</div>
+								<div class="bott-pack">
+									<div class="btn-regis text-center"><a href="">ĐĂNG KÝ</a></div>
+									<div class="more-pack text-center"><a href="">Chi tiết <i class="fa fa-angle-double-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="view-all text-center"><a href="">Xem tất cả <i class="fa fa-angle-double-right"></i></a></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="box-search-sim">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3">
-					<div class="side-bar side-sticky">
-						<div class="title-bar">
-							<h2><img src="images/icon-bar.png" class="img-fluid" alt=""><span>Danh mục tài liệu</span></h2>
-						</div>
-						<div class="cate-bar">
+				<div class="col-md-12">
+					<div class="search-sim-top">
+						<i class="fa fa-search"></i>
+						<input type="text" placeholder="Tìm kiếm số">
+						<button type="submit">Tìm kiếm</button>
+						<div class="box-note-search">
+							<h6>Hướng dẫn tìm số</h6>
 							<ul>
-								<li>
-									<a href="">Phát triển năng lực stream <i class="fa fa-angle-right"></i></a>
-									<ul>
-										<li><a href="">Book & Emagazine</a></li>
-										<li><a href="">Book & Emagazine</a></li>
-										<li><a href="">Book & Emagazine</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="">Phát triển nhận thức <i class="fa fa-angle-right"></i></a>
-									<ul>
-										<li><a href="">Book & Emagazine</a></li>
-										<li><a href="">Book & Emagazine</a></li> 
-										<li><a href="">Book & Emagazine</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="">Phát triển thẩm mỹ <i class="fa fa-angle-right"></i></a>
-									<ul>
-										<li><a href="">Book & Emagazine</a></li>
-										<li><a href="">Book & Emagazine</a></li>
-										<li><a href="">Book & Emagazine</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="">Phát triển ngôn ngữ <i class="fa fa-angle-right"></i></a>
-									<ul>
-										<li><a href="">Book & Emagazine</a></li>
-										<li><a href="">Book & Emagazine</a></li>
-										<li><a href="">Book & Emagazine</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="">Phát triển tình cảm & qhxh <i class="fa fa-angle-right"></i></a>
-									<ul>
-										<li><a href="">Book & Emagazine</a></li>
-										<li><a href="">Book & Emagazine</a></li>
-										<li><a href="">Book & Emagazine</a></li>
-									</ul>
-								</li>
+								<li>- Sử dụng dâu * đại diện cho một chuỗi số</li>
+								<li>- Sử dụng dâu * đại diện cho một chuỗi số</li>
+								<li>- Sử dụng dâu * đại diện cho một chuỗi số</li>
+								<li>- Sử dụng dâu * đại diện cho một chuỗi số</li>
+								<li>- Sử dụng dâu * đại diện cho một chuỗi số</li>
 							</ul>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-9">
-					<div class="slide-banner">
-						<div class="item"><a href=""><img src="images/slide.jpg" class="img-fluid w-100" alt=""></a></div>
-						<div class="item"><a href=""><img src="images/slide.jpg" class="img-fluid w-100" alt=""></a></div>
-						<div class="item"><a href=""><img src="images/slide.jpg" class="img-fluid w-100" alt=""></a></div>
+					<div class="list-sim">
+						<table class="table">
+					        <thead>
+					            <tr>
+					            	<th class="text-center">STT</th>
+					            	<th class="text-center">Số thuê bao</th>
+					            	<th class="text-center">Phí hòa mạng</th>
+					            	<th class="text-center">Cam kết</th>
+					            	<th class="text-center"></th>
+					            </tr>
+					        </thead>
+				          	<tbody>
+					            <tr>
+					            	<th class="text-center">1</th>
+					            	<th class="text-center">
+					            		<div class="numb-sim">0964150069</div>
+					            	</th>
+					            	<th class="text-center">
+					            		<div class="price">260.000 đ</div>
+					            	</th>
+					            	<th class="text-center">
+					            		<div class="price">12 tháng</div>
+					            	</th>
+					            	<th class="text-center"><a href="javascript:void(0)" data-toggle="modal" data-target="#modal-buy">Mua ngay</a></th>
+					            </tr>
+					            <tr>
+					            	<th class="text-center">1</th>
+					            	<th class="text-center">
+					            		<div class="numb-sim">0964150069</div>
+					            	</th>
+					            	<th class="text-center">
+					            		<div class="price">260.000 đ</div>
+					            	</th>
+					            	<th class="text-center">
+					            		<div class="price">12 tháng</div>
+					            	</th>
+					            	<th class="text-center"><a href="javascript:void(0)" data-toggle="modal" data-target="#modal-buy">Mua ngay</a></th>
+					            </tr>
+					            <tr>
+					            	<th class="text-center">1</th>
+					            	<th class="text-center">
+					            		<div class="numb-sim">0964150069</div>
+					            	</th>
+					            	<th class="text-center">
+					            		<div class="price">260.000 đ</div>
+					            	</th>
+					            	<th class="text-center">
+					            		<div class="price">12 tháng</div>
+					            	</th>
+					            	<th class="text-center"><a href="javascript:void(0)" data-toggle="modal" data-target="#modal-buy">Mua ngay</a></th>
+					            </tr>
+					            <tr>
+					            	<th class="text-center">1</th>
+					            	<th class="text-center">
+					            		<div class="numb-sim">0964150069</div>
+					            	</th>
+					            	<th class="text-center">
+					            		<div class="price">260.000 đ</div>
+					            	</th>
+					            	<th class="text-center">
+					            		<div class="price">12 tháng</div>
+					            	</th>
+					            	<th class="text-center"><a href="javascript:void(0)" data-toggle="modal" data-target="#modal-buy">Mua ngay</a></th>
+					            </tr>
+					            <tr>
+					            	<th class="text-center">1</th>
+					            	<th class="text-center">
+					            		<div class="numb-sim">0964150069</div>
+					            	</th>
+					            	<th class="text-center">
+					            		<div class="price">260.000 đ</div>
+					            	</th>
+					            	<th class="text-center">
+					            		<div class="price">12 tháng</div>
+					            	</th>
+					            	<th class="text-center"><a href="javascript:void(0)" data-toggle="modal" data-target="#modal-buy">Mua ngay</a></th>
+					            </tr>
+					            <tr>
+					            	<th class="text-center">1</th>
+					            	<th class="text-center">
+					            		<div class="numb-sim">0964150069</div>
+					            	</th>
+					            	<th class="text-center">
+					            		<div class="price">260.000 đ</div>
+					            	</th>
+					            	<th class="text-center">
+					            		<div class="price">12 tháng</div>
+					            	</th>
+					            	<th class="text-center"><a href="javascript:void(0)" data-toggle="modal" data-target="#modal-buy">Mua ngay</a></th>
+					            </tr>
+					            <tr>
+					            	<th class="text-center">1</th>
+					            	<th class="text-center">
+					            		<div class="numb-sim">0964150069</div>
+					            	</th>
+					            	<th class="text-center">
+					            		<div class="price">260.000 đ</div>
+					            	</th>
+					            	<th class="text-center">
+					            		<div class="price">12 tháng</div>
+					            	</th>
+					            	<th class="text-center"><a href="javascript:void(0)" data-toggle="modal" data-target="#modal-buy">Mua ngay</a></th>
+					            </tr>
+				          	</tbody>
+				        </table>  
+				        <div class="view-all text-center"><a href="">Xem tất cả <i class="fa fa-angle-double-right"></i></a></div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section id="box-home-prd">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-					<div class="side-bar side-sticky">
-						<div class="box-bar">
-							<div class="title-bar">
-								<h2><img src="images/icon-bar.png" class="img-fluid" alt=""><span>Danh mục tài liệu</span></h2>
-							</div>
-							<div class="box-filter">
-								<ul>
-									<li><input type="checkbox" id="1001"><label for="1001">Nhà trẻ</label></li>
-									<li><input type="checkbox" id="1002"><label for="1002">Mẫu giáo bé</label></li>
-									<li><input type="checkbox" id="1003"><label for="1003">Mẫu giáo nhỡ</label></li>
-									<li><input type="checkbox" id="1004"><label for="1004">Mẫu giáo lớn</label></li>
-								</ul>
-							</div>
-						</div>
-						<div class="box-bar">
-							<div class="title-bar">
-								<h2><img src="images/icon-bar.png" class="img-fluid" alt=""><span>Loại Tài liệu</span></h2>
-							</div>
-							<div class="box-filter">
-								<ul>
-									<li><input type="checkbox" id="2001"><label for="2001">Tài liệu dành cho cha mẹ</label></li>
-									<li><input type="checkbox" id="2002"><label for="2002">Chương trình giáo dục</label></li>
-									<li><input type="checkbox" id="2003"><label for="2003">Giáo án</label></li>
-									<li><input type="checkbox" id="2004"><label for="2004">Bài tập</label></li>
-									<li><input type="checkbox" id="2005"><label for="2005">Tài liệu bổ trợ khác</label></li>
-								</ul>
-							</div>
-						</div>
-						<div class="box-bar">
-							<div class="title-bar">
-								<h2><img src="images/icon-bar.png" class="img-fluid" alt=""><span>Giá bán</span></h2>
-							</div> 
-							<div class="box-filter">
-								<ul>
-									<li><input type="checkbox" id="3001"><label for="3001">Miễn phí</label></li>
-									<li><input type="checkbox" id="3002"><label for="3002">Dưới 50.000đ</label></li>
-									<li><input type="checkbox" id="3003"><label for="3003">Từ 50.000đ - 100.000đ</label></li>
-									<li><input type="checkbox" id="3004"><label for="3004">Từ 100.000đ - 300.000đ</label></li>
-									<li><input type="checkbox" id="3005"><label for="3005">Từ 300.000đ - 500.000đ</label></li>
-									<li><input type="checkbox" id="3006"><label for="3006">Từ 500.000đ - 1.000.000đ</label></li>
-									<li><input type="checkbox" id="3007"><label for="3007">Trên 1.000.000đ</label></li>
-								</ul>
-							</div>
-						</div>
-						<div class="box-bar">
-							<div class="title-bar">
-								<h2><img src="images/icon-bar.png" class="img-fluid" alt=""><span>Tác giả</span></h2>
-							</div>
-							<div class="box-filter">
-								<ul>
-									<li><input type="checkbox" id="4001"><label for="4001">Phan Huyền Trang</label></li>
-									<li><input type="checkbox" id="4002"><label for="4002">Nguyễn Đình Cường</label></li>
-									<li><input type="checkbox" id="4003"><label for="4003">Lệ Thị Diệu Thảo</label></li>
-									<li><input type="checkbox" id="4004"><label for="4004">Lê Đình Phong</label></li>
-									<li><input type="checkbox" id="4005"><label for="4005">Nguyễn Đức Thuận</label></li>
-									<li><input type="checkbox" id="4006"><label for="4006">Nguyễn Dũng Chiến</label></li>
-									<li><input type="checkbox" id="4007"><label for="4007">Phan Văn Hùng</label></li>
-								</ul>
-							</div>
-						</div>
-						<div class="box-bar">
-							<div class="submit-bar">
-								<input type="submit" value="LỌC">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-9">
-					<div class="box-right-home">
-						<article class="document">
-							<div class="title"><h2><img src="images/title-1.png" class="img-fluid" alt=""> Tài liệu mới nhất</h2></div>
-							<div class="slide-doc slide-doc-hot">
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-1.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
+	<section>
+		<div class="modal fade modal-popup" id="modal-buy">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-body">
+		        <div class="content-popup"> 
+		        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+		        	<div class="list-popup">
+		        		<div class="row">
+		        			<div class="col-md-4 col-sm-6">
+		        				<div class="item-pack">
+									<div class="title-pack text-center">
+										<h3>C120</h3>
+										<p>120.000 đ/tháng</p>
+										<div class="check-popup">
+											<input type="radio" name="pack-check" id="check-1"><label for="check-1"></label>
 										</div>
 									</div>
-								</div>
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-2.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
-										</div>
+									<div class="desc">
+										<ul>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										</ul>
 									</div>
 								</div>
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-3.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
+		        			</div>
+		        			<div class="col-md-4 col-sm-6">
+		        				<div class="item-pack">
+									<div class="title-pack text-center">
+										<h3>C120</h3>
+										<p>120.000 đ/tháng</p>
+										<div class="check-popup">
+											<input type="radio" name="pack-check" id="check-2"><label for="check-2"></label>
 										</div>
 									</div>
-								</div>
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-2.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
-										</div>
+									<div class="desc">
+										<ul>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										</ul>
 									</div>
 								</div>
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-3.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
+		        			</div>
+		        			<div class="col-md-4 col-sm-6">
+		        				<div class="item-pack">
+									<div class="title-pack text-center">
+										<h3>C120</h3>
+										<p>120.000 đ/tháng</p>
+										<div class="check-popup">
+											<input type="radio" name="pack-check" id="check-3"><label for="check-3"></label>
 										</div>
 									</div>
-								</div>
-							</div>
-						</article>
-						<article class="document">
-							<div class="title"><h2><img src="images/title-2.png" class="img-fluid" alt=""> Tài liệu nhiều người xem nhất</h2></div>
-							<div class="slide-doc slide-doc-view">
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-1.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
-										</div>
+									<div class="desc">
+										<ul>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										</ul>
 									</div>
 								</div>
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-2.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
+		        			</div>
+		        			<div class="col-md-4 col-sm-6">
+		        				<div class="item-pack">
+									<div class="title-pack text-center">
+										<h3>C120</h3>
+										<p>120.000 đ/tháng</p>
+										<div class="check-popup">
+											<input type="radio" name="pack-check" id="check-4"><label for="check-4"></label>
 										</div>
 									</div>
-								</div>
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-3.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
-										</div>
+									<div class="desc">
+										<ul>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										</ul>
 									</div>
 								</div>
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-2.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
+		        			</div>
+		        			<div class="col-md-4 col-sm-6">
+		        				<div class="item-pack">
+									<div class="title-pack text-center">
+										<h3>C120</h3>
+										<p>120.000 đ/tháng</p>
+										<div class="check-popup">
+											<input type="radio" name="pack-check" id="check-5"><label for="check-5"></label>
 										</div>
 									</div>
-								</div>
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-3.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
-										</div>
+									<div class="desc">
+										<ul>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-1.svg" class="img-fluid" alt="">50 phút gọi liên mạng</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-2.svg" class="img-fluid" alt="">4Gb Data tốc độ cao/ ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+											<li><img src="images/pack-3.svg" class="img-fluid" alt="">Chu kì gói cước 30 ngày</li>
+										</ul>
 									</div>
 								</div>
-							</div>
-						</article>
-						<article class="document">
-							<div class="title"><h2><img src="images/title-3.png" class="img-fluid" alt=""> Tài liệu nổi bật</h2></div>
-							<div class="slide-doc slide-doc-view">
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-1.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
-										</div>
-									</div>
-								</div>
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-2.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
-										</div>
-									</div>
-								</div>
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-3.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
-										</div>
-									</div>
-								</div>
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-2.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
-										</div>
-									</div>
-								</div>
-								<div class="item-slide">
-									<div class="item-prd">
-										<div class="avarta"><a href=""><img src="images/prd-3.jpg" class="img-fluid w-100" alt=""></a></div>
-										<div class="info">
-											<h3><a href="">EcoColumn PowerPoint Notes</a></h3>
-											<p class="author">Vera Hà Anh</p>
-											<div class="reviews-content">
-                                                <div class="star">
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star star-vote"></i>
-                                                	<i class="fa fa-star"></i>
-                                                </div>
-                                                <span><b>4.7</b> (1,890)</span>
-                                            </div>
-                                            <div class="item-price">
-                                                <del>1.000.000đ</del> <ins>699.000đ</ins>
-                                            </div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</article>
-						<article class="box-story" style="background: url('images/about.jpg');">
-							<div class="info-story text-center">
-								<h3>Câu chuyện của Chúng tôi</h3>
-								<div class="desc">
-									Founded in Florence in 1856, Giulio Giannini and Sons is one of the most ancient active bookbinding workshops in the world. The workshop is now run by 6th generation.
-								</div>
-								<div class="btn-more"><a href="">Xem chi tiết <i class="fa fa-angle-right"></i></a></div>
-							</div>
-						</article>
-						<article class="new-home">
-							<div class="title"><h2><img src="images/title-4.png" class="img-fluid" alt=""> Tin tức</h2></div>
-							<div class="list-new">
-								<div class="row">
-									<div class="col-md-6 col-sm-6">
-										<div class="item-news">
-											<div class="avarta"><a href=""><img src="images/new-1.jpg" class="img-fluid w-100" alt=""></a></div>
-											<div class="info">
-												<h3><a href="">Her ideology that 'great interior design cannot exist without thoughtful architecture</a></h3>
-												<div class="desc">
-													With an ideology 'great interior design cannot exist without thoughtful architecture, and great architecture cannot exist without thoughtful interior design', Alison Pickart...
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6 col-sm-6">
-										<div class="item-news">
-											<div class="avarta"><a href=""><img src="images/new-2.jpg" class="img-fluid w-100" alt=""></a></div>
-											<div class="info">
-												<h3><a href="">Her ideology that 'great interior design cannot exist without thoughtful architecture</a></h3>
-												<div class="desc">
-													With an ideology 'great interior design cannot exist without thoughtful architecture, and great architecture cannot exist without thoughtful interior design', Alison Pickart...
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</article>
-					</div>
-				</div>
-			</div>
+		        			</div>
+		        		</div>
+		        	</div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
 		</div>
-	</section>
-	<style type="text/css">
-		@media(max-width: 767px) {
-			.side-bar {
-				display: none;
-			}
-		}
-	</style>
+	</section>	
 </main>
 <?php include 'footer.php';?> 
+
+ 
